@@ -71,13 +71,12 @@
           </v-layout>
           <v-layout row>
             <v-flex xs12 sm6 offset-sm3>
-              <v-btn 
-                class="primary" 
+              <v-btn
+                class="primary"
                 type="submit"
                 :disabled="!formIsValid">
                   Create Meetup
               </v-btn>
-               {{ submittableDateTime }}
             </v-flex>
           </v-layout>
         </form>
