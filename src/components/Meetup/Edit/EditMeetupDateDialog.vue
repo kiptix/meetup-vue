@@ -26,7 +26,7 @@
   </v-dialog>
 </template>
 
-<<script>
+<script>
 export default {
   props: ['meetup'],
   data () {
